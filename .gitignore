@@ -216,3 +216,63 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ==========================================
+# Ambientes Virtuais (Virtual Environments)
+# ==========================================
+venv/
+.venv/
+env/
+.env/
+ENV/
+env.bak/
+venv.bak/
+
+# ==========================================
+# Python & Bytecode
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ==========================================
+# Artefatos do Modelo & Treinamento (ML)
+# ==========================================
+modelos/*.pkl
+*.pkl
+*.joblib
+*.onnx
+
+# Descomente a linha abaixo apenas se desejar versionar um arquivo específico de modelo:
+# !modelos/modelo_preco_imoveis.pkl
+
+# ==========================================
+# Arquivos de Configuração & Chaves/Segredos
+# ==========================================
+.env
+.env.local
+.env.*.local
+
+# ==========================================
+# IDES & Editores
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==========================================
+# Testes & Cobertura de Código
+# ==========================================
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# ==========================================
+# Arquivos do Sistema Operacional
+# ==========================================
+.DS_Store
+Thumbs.db
